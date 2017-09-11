@@ -1,0 +1,20 @@
+{
+  "weather": [
+    {
+      "id": 721,
+      "main": "Haze",
+      "description": "haze",
+      "icon": "50n"
+    }
+  ],
+  "main": {
+    "temp": 10.14,
+    "pressure": 1020,
+    "humidity": 37,
+    "temp_min": 6,
+    "temp_max": 13
+  },
+  "id": 1835848,
+  "name": "Seoul",
+  "cod": 200
+}

@@ -1,0 +1,8 @@
+<current>
+    <city id="1835848" name="Seoul">
+        <coord lon="126.98" lat="37.57"/>
+        <country>KR</country>
+        <sun rise="2017-03-28T21:21:49" set="2017-03-29T09:52:15"/>
+    </city>
+    <temperature value="11.01" min="7" max="13" unit="metric"/>
+</current>
