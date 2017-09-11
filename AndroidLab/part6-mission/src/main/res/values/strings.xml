@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Part6-Mission</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+</resources>

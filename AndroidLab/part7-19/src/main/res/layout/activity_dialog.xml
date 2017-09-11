@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@android:color/holo_blue_dark"
+    android:padding="16dip"
+    >
+
+    <ImageView
+        android:id="@+id/lab1_phone_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_phone_call"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/lab1_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textColor="@android:color/white"
+        android:paddingBottom="12dip"
+        android:layout_toRightOf="@id/lab1_phone_icon"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/lab1_remove_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_remove"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

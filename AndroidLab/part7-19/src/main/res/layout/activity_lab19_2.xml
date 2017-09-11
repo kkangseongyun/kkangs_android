@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/lab2_basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Notification"/>
+    <Button
+        android:id="@+id/lab2_bigpicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigPictureStyle Notification"/>
+    <Button
+        android:id="@+id/lab2_bigtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigTextStyle Notification"/>
+    <Button
+        android:id="@+id/lab2_inbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InboxStyle Notification"/>
+    <Button
+        android:id="@+id/lab2_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Notification"/>
+    <Button
+        android:id="@+id/lab2_headsup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Headsup Notification"/>
+</LinearLayout>
