@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/mission1_symbol"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"/>
+
+    <ImageView
+        android:id="@+id/mission1_up_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_up"
+        android:layout_below="@id/mission1_symbol"
+        android:layout_alignLeft="@id/mission1_symbol"/>
+
+    <TextView
+        android:id="@+id/mission1_up_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mission1_up_image"
+        android:layout_alignTop="@id/mission1_up_image"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/mission1_down_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_down"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@id/mission1_up_text"
+        android:layout_alignTop="@id/mission1_up_image"/>
+
+    <TextView
+        android:id="@+id/mission1_down_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mission1_down_image"
+        android:layout_alignTop="@id/mission1_up_image"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/mission1_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="80dp"
+        android:layout_below="@id/mission1_up_image"
+        android:layout_marginLeft="24dp"/>
+
+    <ImageView
+        android:id="@+id/mission1_fahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_fahrenheit"
+        android:layout_toRightOf="@id/mission1_temperature"
+        android:layout_alignTop="@id/mission1_temperature"
+        android:layout_marginLeft="8dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mission1_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission1_temperature"/>
+
+</RelativeLayout>
