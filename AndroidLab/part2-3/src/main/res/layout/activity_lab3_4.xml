@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가나다라 http://www.google.com 마바사 a@a.com 아자카차타 1234-5678"
+        android:autoLink="web|email|phone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_text"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:maxLines="3"/>
+
+    <TextView
+        android:id="@+id/fontView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Font"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="전화번호 입력"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is unChecked"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+
