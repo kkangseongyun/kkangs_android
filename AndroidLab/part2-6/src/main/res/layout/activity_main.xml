@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#283593">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3b479d"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:id="@+id/ampm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오전"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="56dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:40"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:layout_toRightOf="@id/ampm"
+            android:layout_marginLeft="16dp"
+            android:layout_alignBaseline="@id/ampm"/>
+
+
+        <Switch
+            android:id="@+id/onOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/time"
+            android:buttonTint="#FF0000"/>
+
+        <CheckBox
+            android:id="@+id/repeatCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="반복"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/ampm"
+            android:layout_alignLeft="@id/ampm"
+            android:layout_marginTop="16dp"
+            android:buttonTint="#FFFFFF"
+            />
+
+        <ImageView
+            android:id="@+id/bell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bell"
+            android:layout_below="@id/repeatCheck"
+            android:layout_alignLeft="@id/ampm"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/bell_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Helium"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@id/bell"
+            android:layout_alignBottom="@id/bell"/>
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="라벨"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/bell_name"
+            android:layout_alignLeft="@id/ampm"
+            android:layout_marginTop="16dp"/>
+        <CheckBox
+            android:id="@+id/vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진동"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/bell_name"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:buttonTint="#FFFFFF"/>
+    </RelativeLayout>
+</LinearLayout>
