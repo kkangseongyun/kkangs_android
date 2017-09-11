@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_dialog_list">
+        <item>사진 촬영</item>
+        <item>동영상 촬영</item>
+    </string-array>
+</resources>
