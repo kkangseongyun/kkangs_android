@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="16dp"
+    android:background="#ff0000"
+    >
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is DetailActivity"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/detail_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/detail_name"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/detail_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_count"
+        android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/detail_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_edit"
+        android:text="Count"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

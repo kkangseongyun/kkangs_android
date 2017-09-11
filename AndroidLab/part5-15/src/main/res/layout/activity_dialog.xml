@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="225dp"
+    android:layout_height="120dp"
+    android:background="@android:color/holo_blue_dark"
+    android:padding="12dip"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is DialogActivity"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textColor="@android:color/white"
+        android:paddingBottom="12dip"
+        />
+
+    <Button
+        android:id="@+id/btn_finish_dialog"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="finish"
+        android:textSize="12dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="finishDialog"
+        />
+</LinearLayout>
