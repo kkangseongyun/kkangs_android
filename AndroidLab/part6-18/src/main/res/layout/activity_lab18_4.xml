@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lab4_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/lab4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="Modal Bottom Sheet"/>
+
+    <LinearLayout
+        android:id="@+id/lab4_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#ebebeb"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:behavior_peekHeight="120dp"
+        app:behavior_hideable="true"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persistent Bottom Sheets"
+            android:textColor="#DF000000"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persistent bottom sheets anr an integral part of an apps layout"
+            android:textColor="#8B000000"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
