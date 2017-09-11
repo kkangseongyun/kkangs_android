@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="roaming"
+        android:summary="로밍 시 데이터 서비스 연결"
+        android:title="데이터 로밍"
+        />
+    <ListPreference
+        android:dialogTitle="기본 네트워크 유형"
+        android:key="network_type"
+        android:title="기본 네트워크 유형"
+        android:entries="@array/network_type"
+        android:entryValues="@array/network_type"
+        />
+    <SwitchPreference
+        android:key="lte_mode"
+        android:summary="LTE 서비스를 사용하여 음성 및 기타 통신을 개설할 수 있습니다. (권장)"
+        android:title="향상된 4G LTE 모드"
+        />
+
+    <PreferenceScreen
+        android:title="APN"
+        >
+        <Preference
+            android:title="SKT 3G INTERNET"
+            android:summary="websktelecom.com"
+            />
+        <Preference
+            android:title="SKT LTE INTERNET"
+            android:summary="lte.sktelecom.com"
+            />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="네트워크 운영자"
+        android:summary="네트워크 운영자 선택">
+        <intent android:targetPackage="com.example.user.part3_mission"
+            android:targetClass="com.example.user.part3_mission.Mission2SubActivity"/>
+    </PreferenceScreen>
+</PreferenceScreen>

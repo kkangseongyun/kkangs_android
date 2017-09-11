@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_voice">
+        <item>카톡</item>
+        <item>카톡왔숑</item>
+        <item>카톡카톡</item>
+        <item>카카오톡</item>
+    </string-array>
+</resources>

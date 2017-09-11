@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textStyle="bold"
+        android:layout_below="@id/result"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/result_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/label_name"
+        android:layout_alignBaseline="@id/label_name"/>
+
+    <TextView
+        android:id="@+id/label_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone : "
+        android:textStyle="bold"
+        android:layout_below="@id/label_name"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/result_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/label_phone"
+        android:layout_alignBaseline="@id/label_phone"/>
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:textStyle="bold"
+        android:layout_below="@id/label_phone"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/result_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/label_email"
+        android:layout_alignBaseline="@id/label_email"/>
+
+</RelativeLayout>
