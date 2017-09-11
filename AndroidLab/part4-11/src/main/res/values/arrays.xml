@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_array">
+        <item>한국어</item>
+        <item>영어</item>
+        <item>스페인어</item>
+        <item>독일어</item>
+        <item>중국어</item>
+        <item>일본어</item>
+    </string-array>
+
+    <string-array name="auto_array">
+        <item>류현진</item>
+        <item>박찬호</item>
+        <item>박찬홍</item>
+        <item>추신수</item>
+        <item>이대호</item>
+        <item>오승환</item>
+        <item>김현수</item>
+        <item>강정호</item>
+    </string-array>
+</resources>

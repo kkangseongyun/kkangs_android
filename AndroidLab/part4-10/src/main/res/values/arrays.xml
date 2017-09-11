@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location">
+        <item>강원도</item>
+        <item>경기도</item>
+        <item>경상남도</item>
+        <item>서울특별시</item>
+        <item>충청북도</item>
+    </string-array>
+</resources>
