@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_lab2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주소록 앱 연동 "/>
+
+    <Button
+        android:id="@+id/btn_camera_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카메라 앱 연동 - Data "/>
+
+    <Button
+        android:id="@+id/btn_camera_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카메라 앱 연동 - File "/>
+
+    <Button
+        android:id="@+id/btn_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음성인식 앱 연동 "/>
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="지도 앱 연동 "/>
+
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="브라우저 앱 연동 "/>
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call App 연동 "/>
+
+    <ImageView
+        android:id="@+id/resultImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"/>
+</LinearLayout>
