@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303897">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:id="@+id/lab1_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="24dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/lab1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello world"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@id/lab1_play"
+        android:layout_marginLeft="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:id="@+id/lab1_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_stop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginRight="24dp"
+        android:clickable="true"/>
+
+    <ProgressBar
+        android:id="@+id/lab1_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_above="@id/lab1_title"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+</RelativeLayout>
