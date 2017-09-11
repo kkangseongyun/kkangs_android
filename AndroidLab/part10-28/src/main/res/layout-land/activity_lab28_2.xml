@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/lab2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_camera"
+        android:clickable="true"
+        android:layout_gravity="center"
+        />
+
+    <SurfaceView
+        android:id="@+id/lab2_surface"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>
