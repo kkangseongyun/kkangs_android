@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_vibration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibration"/>
+    <Button
+        android:id="@+id/btn_system_beep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="system beep"/>
+    <Button
+        android:id="@+id/btn_custom_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom sound"/>
+
+</LinearLayout>

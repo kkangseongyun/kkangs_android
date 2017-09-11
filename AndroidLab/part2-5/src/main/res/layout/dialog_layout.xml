@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USB 디버깅을 허용하시겠습니까?"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="컴퓨터 RSA 지문 : "
+        android:layout_below="@id/text1"
+        android:layout_alignLeft="@id/text1"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17:AA:BB:77~~"
+        android:layout_below="@id/text2"
+        android:layout_alignLeft="@id/text2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이 컴퓨터에서 항상 허용"
+        android:layout_below="@id/text3"
+        android:layout_alignLeft="@id/text3"/>
+
+</RelativeLayout>

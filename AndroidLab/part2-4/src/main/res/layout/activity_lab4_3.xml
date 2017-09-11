@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/host">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tab_content1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tab 1"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tab_content2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tab 2"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tab_content3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tab 3"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>
+

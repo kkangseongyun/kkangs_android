@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_array">
+        <item>기본 알람 소리</item>
+        <item>Argon</item>
+        <item>Awaken</item>
+        <item>Bounce</item>
+        <item>Carbon</item>
+    </string-array>
+</resources>
